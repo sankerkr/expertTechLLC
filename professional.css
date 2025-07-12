@@ -33,6 +33,12 @@ header {
   top: 0;
   z-index: 1000;
 }
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #64FFDA;
+  font-size: 1.25rem;
+}
 
 header .nav a {
   color: #E6F1FF;
@@ -40,12 +46,16 @@ header .nav a {
   text-decoration: none;
   font-weight: 500;
 }
+header .nav a:hover {
+  color: #64FFDA;
+}
 
 .nav a.active {
   color: #64FFDA;
 }
 
 .hero {
+  position: relative;
   background: url('https://images.unsplash.com/photo-1526406915890-0e3c50b71aa1?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
   height: 100vh;
   display: flex;
@@ -54,6 +64,17 @@ header .nav a {
   align-items: center;
   text-align: center;
   padding: 0 1rem;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 0;
+}
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
