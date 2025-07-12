@@ -1,0 +1,49 @@
+/* Modern professional design */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  color: #333;
+  background: #f2f7ff;
+  line-height: 1.6;
+}
+
+header {
+  background: #042b5f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(to right, #003973, #e5e5be);
+  color: #fff;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  background: #042b5f;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
