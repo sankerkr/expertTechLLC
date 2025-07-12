@@ -210,3 +210,17 @@ footer a {
   position: relative;
   z-index: 1;
 }
+
+
+.case-study-content {
+  color: #E6F1FF;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+

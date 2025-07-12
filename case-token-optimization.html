@@ -12,42 +12,38 @@
 </head>
 <body>
   <header>
-    <div class="logo">ExpertTech</div>
+
+  <a href="index.html" class="logo-link"><div class="logo">ExpertTech</div></a>
     <nav class="nav">
-      <a href="#services">Services</a>
-      <a href="#cases">Case Studies</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#cases">Case Studies</a>
+      <a href="index.html#contact">Contact</a>
+
     </nav>
   </header>
   <section class='hero-case' style="background-image:url('images/case-token-hero.jpg');">
     <h1>Token Optimization</h1>
   </section>
+  <div class="case-study-content">
   <section>
-    <h2>Executive Summary</h2>
+    <h2>Project Summary</h2>
     <p>For a logistics provider processing thousands of invoices, optimized prompts cut token usage by 40%. The resulting API savings lowered monthly spend while keeping accuracy high.</p>
   </section>
   <section>
-    <h2>About the Client</h2>
-    <p>Our client manages warehousing and last-mile delivery for hundreds of online retailers. With operations spread across multiple time zones, their internal support chatbot sees constant activity from drivers and dispatchers looking for shipment updates.</p>
+    <h2>The Challenge</h2>
+    <p>Verbose prompts were inflating API costs and slowing response times.</p>
   </section>
   <section>
-    <h2>The In-Depth Challenge</h2>
-    <p>Verbose prompts were inflating API costs and slowing response times. The bot often included unnecessary system messages that consumed tokens without adding value. Over the course of a month, usage exceeded budget by 60% and forced the company to throttle interactions, frustrating the fleet.</p>
+    <h2>Our Solution</h2>
+    <p>We refined prompts and implemented caching so only essential tokens were sent to the model.</p>
   </section>
   <section>
-    <h2>A Technical Deep Dive</h2>
-    <p>We refined prompts and implemented caching so only essential tokens were sent to the model. First, we audited chat logs to identify common intents and trimmed boilerplate text. We introduced embeddings-based similarity search to retrieve previous responses, avoiding repeated calls to the API. Additionally, a custom middleware layer compressed large location payloads into short tokens. The diagram below shows how the caching layer routes requests.</p>
-    <img src="images/case-token-architecture.jpg" alt="Token optimization architecture" />
+    <h2>The Results</h2>
+    <p>Token usage fell by 40%, delivering significant monthly savings.</p>
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Optimized prompts" />
   </section>
-  <section>
-    <h2>Quantifiable Results and ROI</h2>
-    <p>Token usage fell by 40%, delivering significant monthly savings. Response times improved by 50%, leading to faster dispatch decisions and happier drivers. Within four months, the project paid for itself.</p>
-  </section>
-  <section>
-    <h2>Client Testimonial</h2>
-    <p>"We never realized how much money we were burning on inefficient prompts. ExpertTech streamlined everything and our teams feel the difference every day." – Logistics Operations Manager</p>
-    <img src="images/case-token.jpg" alt="Optimized prompts" />
-  </section>
+  </div>
+
   <footer>
     <div class="footer-column">
       <h3>Navigate</h3>
