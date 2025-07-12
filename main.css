@@ -32,6 +32,14 @@ body {
   background: var(--dl-color-theme-secondary2);
 }
 
+.hero-photo {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: var(--dl-layout-radius-imageradius);
+  margin-bottom: var(--dl-layout-space-oneandhalfunits);
+}
+
 section {
   padding: 2rem;
   max-width: 1000px;
