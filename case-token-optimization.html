@@ -11,21 +11,51 @@
   <link rel="stylesheet" href="professional.css" />
 </head>
 <body>
-  <header id="home">
-    <img src="logo.svg" alt="ExpertTech LLC Logo" class="logo" />
+  <header>
+  <a href="index.html" class="logo-link"><div class="logo">ExpertTech</div></a>
     <nav class="nav">
-      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#cases">Case Studies</a>
+      <a href="index.html#contact">Contact</a>
     </nav>
   </header>
   <section class='hero-case' style="background-image:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=80');">
     <h1>Token Optimization</h1>
   </section>
+  <div class="case-study-content">
   <section>
-    <h2>Case Study</h2>
+    <h2>Project Summary</h2>
     <p>For a logistics provider processing thousands of invoices, optimized prompts cut token usage by 40%. The resulting API savings lowered monthly spend while keeping accuracy high.</p>
   </section>
+  <section>
+    <h2>The Challenge</h2>
+    <p>Verbose prompts were inflating API costs and slowing response times.</p>
+  </section>
+  <section>
+    <h2>Our Solution</h2>
+    <p>We refined prompts and implemented caching so only essential tokens were sent to the model.</p>
+  </section>
+  <section>
+    <h2>The Results</h2>
+    <p>Token usage fell by 40%, delivering significant monthly savings.</p>
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Optimized prompts" />
+  </section>
+  </div>
   <footer>
-    <p>© 2024 ExpertTech Consulting LLC</p>
+    <div class="footer-column">
+      <h3>Navigate</h3>
+      <p><a href="#home">Home</a></p>
+      <p><a href="#services">Services</a></p>
+      <p><a href="#cases">Case Studies</a></p>
+    </div>
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p>info@experttechllc.com</p>
+      <p>(555) 123-4567</p>
+    </div>
+    <div class="footer-column">
+      <h3>&copy; 2024 ExpertTech Consulting LLC</h3>
+    </div>
   </footer>
 </body>
 </html>
