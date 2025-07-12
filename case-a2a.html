@@ -17,15 +17,40 @@
       <a href="index.html#services">Services</a>
       <a href="index.html#cases">Case Studies</a>
       <a href="index.html#contact">Contact</a>
+
     </nav>
   </header>
-  <section class='hero-case' style="background-image:url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1500&q=80');">
+  <section class='hero-case' style="background-image:url('images/case-a2a-hero.jpg');">
     <h1>A2A Collaboration</h1>
   </section>
   <div class="case-study-content">
   <section>
-    <h2>Project Summary</h2>
-    <p>Our A2A framework enabled multiple AI agents to share context in a customer support environment. Routine inquiries were resolved end-to-end without human intervention, freeing staff to focus on complex requests.</p>
+ <h2>Executive Summary</h2>
+    <p>Our A2A framework enabled multiple AI agents to share context in a customer support environment. Routine inquiries were resolved end-to-end without human intervention, freeing staff to focus on complex requests. The system handled over 10,000 interactions per week with a 92% satisfaction rating.</p>
+  </section>
+  <section>
+    <h2>About the Client</h2>
+    <p>The client is a mid-sized telecommunications provider serving half a million customers across the Midwest. With call volume rising year over year and a workforce already stretched thin, the company sought innovative solutions to maintain high service levels without drastically expanding headcount.</p>
+  </section>
+  <section>
+    <h2>The In-Depth Challenge</h2>
+    <p>Support teams were overwhelmed with repetitive questions. Agents spent nearly 70% of their time on password resets, billing inquiries, and basic troubleshooting rather than high-value retention tasks. This not only impacted morale but also led to longer wait times and a dip in customer satisfaction scores. Leadership needed a scalable way to deflect these routine tickets while ensuring that escalations were handled smoothly.</p>
+  </section>
+  <section>
+    <h2>A Technical Deep Dive</h2>
+    <p>We orchestrated a collaborative set of AI agents that could access shared context and resolve issues autonomously. Our approach relied on a central knowledge store built on a vector database. Each incoming request was first parsed by an intent classifier. From there, domain-specific agents – billing, tech support, device activation – picked up the task and leveraged retrieval-augmented generation to craft responses. The system was integrated into the existing CRM using webhooks and a lightweight Python middleware layer.</p>
+    <p>One challenge was preserving conversation state across channels. We addressed this with a Redis-backed session service, allowing agents to retrieve prior exchanges regardless of whether the user contacted support via chat or email. The architecture diagram below outlines these interactions.</p>
+    <img src="images/case-a2a-architecture.jpg" alt="A2A architecture diagram" />
+  </section>
+  <section>
+    <h2>Quantifiable Results and ROI</h2>
+    <p>Within three months of deployment, first-contact resolution improved by 35% and average response times dropped to under thirty seconds. The company estimates it saved $500k annually by reducing overtime costs and lowering agent attrition. Most importantly, customer satisfaction increased eight points.</p>
+  </section>
+  <section>
+    <h2>Client Testimonial</h2>
+    <p>"ExpertTech's multi-agent system revolutionized how we handle support. Our team can finally focus on proactive outreach instead of constantly putting out fires." – Director of Customer Experience</p>
+    <img src="images/case-a2a.jpg" alt="AI collaboration" />
+
   </section>
   <section>
     <h2>The Challenge</h2>

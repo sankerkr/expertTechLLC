@@ -1,0 +1,31 @@
+# Conceptual Image List
+
+- **images/hero-background.jpg** – Futuristic business technology collage representing AI and business.
+- **images/service-chat.jpg** – Chatbot assisting a customer on a laptop screen.
+- **images/service-docs.jpg** – Close-up of documents being scanned with OCR.
+- **images/service-data.jpg** – Diagram of data pipelines connecting multiple sources.
+- **images/service-training.jpg** – Corporate team learning with a trainer presenting AI concepts.
+- **images/case-a2a-hero.jpg** – Abstract graphic of interconnected AI agents.
+- **images/case-a2a.jpg** – Support staff monitoring AI collaboration.
+- **images/case-a2a-architecture.jpg** – Diagram of multi-agent architecture.
+- **images/case-n8n-hero.jpg** – Workflow automation dashboard.
+- **images/case-n8n.jpg** – Developer configuring n8n workflow.
+- **images/case-n8n-architecture.jpg** – Flowchart showing n8n integration points.
+- **images/case-prompt-hero.jpg** – AI model training interface.
+- **images/case-prompt.jpg** – Support agent reviewing prompt tuning results.
+- **images/case-prompt-architecture.jpg** – Diagram of prompt tuning pipeline.
+- **images/case-token-hero.jpg** – Abstract tokens or code optimization visual.
+- **images/case-token.jpg** – Engineer analyzing cost metrics.
+- **images/case-token-architecture.jpg** – Diagram of caching layer for token optimization.
+- **images/case-agentic-hero.jpg** – Multiple bots interacting.
+- **images/case-agentic.jpg** – Call center environment with AI assistance.
+- **images/case-agentic-architecture.jpg** – Diagram of agent communication bus.
+- **images/case-mcp-hero.jpg** – Monitoring dashboard overview.
+- **images/case-mcp.jpg** – Compliance manager reviewing reports.
+- **images/case-mcp-architecture.jpg** – MCP architecture diagram.
+- **images/case-healthcare-hero.jpg** – Doctor using tablet with patient scheduling app.
+- **images/case-healthcare.jpg** – Medical staff interacting with AI system.
+- **images/case-healthcare-architecture.jpg** – Architecture of healthcare automation workflow.
+- **images/case-logistics-hero.jpg** – Cargo shipment in transit.
+- **images/case-logistics.jpg** – Logistics manager tracking shipments.
+- **images/case-logistics-architecture.jpg** – Flowchart of document automation and tracking.
