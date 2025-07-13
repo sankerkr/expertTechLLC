@@ -7,18 +7,16 @@
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://www.experttechconsulting.com/case-token-optimization.html" />
   <title>Token Optimization - ExpertTech Consulting</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="professional.css" />
 </head>
 <body>
   <header>
-
   <a href="index.html" class="logo-link"><div class="logo">ExpertTech</div></a>
     <nav class="nav">
       <a href="index.html#services">Services</a>
       <a href="index.html#cases">Case Studies</a>
       <a href="index.html#contact">Contact</a>
-
     </nav>
   </header>
   <section class='hero-case' style="background-image:url('images/case-token-hero.jpg');">
@@ -26,24 +24,37 @@
   </section>
   <div class="case-study-content">
   <section>
-    <h2>Project Summary</h2>
-    <p>For a logistics provider processing thousands of invoices, optimized prompts cut token usage by 40%. The resulting API savings lowered monthly spend while keeping accuracy high.</p>
+    <h2>Executive Summary</h2>
+    <p>API usage costs were spiraling for a logistics company that processes thousands of shipping documents every day. ExpertTech designed a token-efficient prompting strategy that trimmed redundant requests and consolidated data lookups. This streamlined approach immediately lowered monthly expenses without sacrificing accuracy.</p>
+    <p>By focusing on concise prompts and strategic caching, the organization reduced the overall volume of tokens sent to their language models. The resulting savings allowed them to reinvest in further automation initiatives.</p>
   </section>
   <section>
-    <h2>The Challenge</h2>
-    <p>Verbose prompts were inflating API costs and slowing response times.</p>
+    <h2>About the Client</h2>
+    <p>The client operates a network of distribution centers that rely heavily on AI-based document processing. Prior to engaging ExpertTech, they used generic prompts to parse invoices and bills of lading. As usage grew, token counts skyrocketed, leading to budget overruns.</p>
+    <p>The IT team wanted a systematic approach to measuring and managing consumption while still providing high-quality outputs for the operations staff.</p>
   </section>
   <section>
-    <h2>Our Solution</h2>
-    <p>We refined prompts and implemented caching so only essential tokens were sent to the model.</p>
+    <h2>Challenge</h2>
+    <p>Verbose prompts were the main culprit. Each request included unnecessary context that the model did not actually need. This not only slowed response times but also multiplied the monthly API bill. The organization needed to streamline prompts across dozens of workflows and introduce caching to avoid repeated calls.</p>
+    <p>Any optimization had to integrate with existing pipelines so there would be no downtime in day-to-day shipping operations.</p>
   </section>
   <section>
-    <h2>The Results</h2>
-    <p>Token usage fell by 40%, delivering significant monthly savings.</p>
-    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Optimized prompts" />
+    <h2>Technical Deep Dive</h2>
+    <p>ExpertTech analyzed typical input patterns and trimmed irrelevant text from every prompt. We used a Python middleware layer to cache frequent responses and introduced conditional logic so requests only hit the API when truly required. A monitoring dashboard was built with Grafana to track token usage over time.</p>
+    <p>The architecture diagram below outlines how requests flow through the caching layer before reaching the language model. This setup reduced latency and provided clear visibility into savings.</p>
+    <img src="images/case-token-architecture.jpg" alt="Token optimization architecture" />
+  </section>
+  <section>
+    <h2>Results & ROI</h2>
+    <p>Within weeks, token counts dropped by 40%. Response latency improved as well, enabling faster document turnaround in the warehouse. The company now saves several thousand dollars per month on API fees, effectively funding other automation projects.</p>
+    <p>Because prompts are standardized and centrally managed, future integrations require minimal tuning. The finance department applauded the project&rsquo;s quick payback period and ongoing impact on the bottom line.</p>
+  </section>
+  <section>
+    <h2>Testimonial</h2>
+    <p>&ldquo;ExpertTech helped us understand exactly where our model costs were coming from. Their efficient prompting strategy paid for itself almost immediately,&rdquo; said the VP of Technology. &ldquo;We can scale with confidence knowing usage is under control.&rdquo;</p>
+    <img src="images/case-token.jpg" alt="Dashboard showing reduced token usage" />
   </section>
   </div>
-
   <footer>
     <div class="footer-column">
       <h3>Navigate</h3>

@@ -1,8 +1,11 @@
+
+/* Primary stylesheet for ExpertTech site. Other CSS files removed. */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap');
+
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: #0A192F;
   color: #E6F1FF;
   line-height: 1.6;
@@ -26,7 +29,7 @@ section.visible {
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   margin-top: 0;
 }
 
@@ -42,7 +45,7 @@ header {
   z-index: 1000;
 }
 .logo {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #64FFDA;
   font-size: 1.25rem;
