@@ -7,18 +7,16 @@
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://www.experttechconsulting.com/case-agentic-workflows.html" />
   <title>Agentic Workflows - ExpertTech Consulting</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="professional.css" />
 </head>
 <body>
   <header>
-
   <a href="index.html" class="logo-link"><div class="logo">ExpertTech</div></a>
     <nav class="nav">
       <a href="index.html#services">Services</a>
       <a href="index.html#cases">Case Studies</a>
       <a href="index.html#contact">Contact</a>
-
     </nav>
   </header>
   <section class='hero-case' style="background-image:url('images/case-agentic-hero.jpg');">
@@ -26,25 +24,37 @@
   </section>
   <div class="case-study-content">
   <section>
-
-    <h2>Project Summary</h2>
-    <p>A telecom provider used agentic workflows to triage support tickets. Agents coordinate autonomously to classify issues, retrieve account data and escalate when needed, improving service levels and reducing call transfers.</p>
+    <h2>Executive Summary</h2>
+    <p>For a nationwide telecom provider, ticket backlogs regularly topped ten thousand requests a week. Our team introduced autonomous agents that analyze each ticket, retrieve subscriber details, and propose resolutions before a human ever reviews the case. In less than three months, response times fell below industry benchmarks and customer satisfaction soared.</p>
+    <p>These agentic workflows seamlessly integrated with the company&rsquo;s existing CRM. By automating classification and triage, support staff could focus on complex issues while simple inquiries were resolved in minutes. The project laid the foundation for continuous improvement through data-driven monitoring and iterative retraining.</p>
   </section>
   <section>
-    <h2>The Challenge</h2>
-    <p>High ticket volume made manual triage slow and error-prone.</p>
+    <h2>About the Client</h2>
+    <p>The client serves millions of residential and small business subscribers across North America. With a strong reputation for reliability, the organization handles thousands of daily service calls and emails. Prior to automation, the support team relied on manual tagging and routing, creating uneven workloads and frequent escalations.</p>
+    <p>Leadership sought a partner who understood both telecommunications infrastructure and modern AI techniques. ExpertTech worked closely with customer experience managers to map existing workflows and uncover pain points that could be addressed with automated decision-making.</p>
   </section>
   <section>
-    <h2>Our Solution</h2>
-    <p>We deployed a multi-agent workflow to classify requests, pull account information and escalate critical issues automatically.</p>
+    <h2>Challenge</h2>
+    <p>Volume was the primary obstacle. Tickets arrived faster than agents could triage them, leading to missed service-level agreements and rising churn. Because information was scattered across billing and network systems, staff wasted valuable time searching for account history. Inconsistent handoffs further frustrated customers and increased the number of transfers.</p>
+    <p>The provider needed a way to classify and resolve routine questions automatically while preserving context for urgent escalations. Any solution would also have to comply with stringent data privacy regulations and maintain visibility for team supervisors.</p>
   </section>
   <section>
-    <h2>The Results</h2>
-    <p>Call transfers dropped sharply and service levels improved.</p>
-    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Agent workflow" />
+    <h2>Technical Deep Dive</h2>
+    <p>ExpertTech deployed a multi-agent architecture built on Python microservices. An intent classifier first sorted each ticket into categories such as billing, outage, or account changes. Specialized agents then pulled relevant subscriber data from a centralized datastore and generated recommended actions. The system relied on a vector database so agents could share conversation history and avoid redundant questions.</p>
+    <p>We also implemented a lightweight orchestration layer to track agent performance and enable rapid updates. The diagram below illustrates the flow of requests through the agent network and highlights our use of message queues to handle high volume.</p>
+    <img src="images/case-agentic-architecture.jpg" alt="Agentic workflow architecture" />
+  </section>
+  <section>
+    <h2>Results & ROI</h2>
+    <p>Within the first month, average resolution time dropped by 40%. Agents reported fewer repetitive tasks and could focus on troubleshooting complex network issues. Automated triage also revealed new insights into customer pain points, informing product improvements across the organization.</p>
+    <p>Financially, the provider saved an estimated $800k in annual staffing costs while maintaining a consistent quality of service. Reduced transfer rates meant shorter calls, freeing up bandwidth in the support center during peak periods.</p>
+  </section>
+  <section>
+    <h2>Testimonial</h2>
+    <p>&ldquo;ExpertTech delivered exactly what we hoped for: a smart, reliable system that keeps our customers happy and our teams efficient,&rdquo; noted the Director of Customer Support. &ldquo;The agentic workflows give us real-time insights and cut down on tedious manual work.&rdquo;</p>
+    <img src="images/case-agentic.jpg" alt="Support team using agentic tools" />
   </section>
   </div>
-
   <footer>
     <div class="footer-column">
       <h3>Navigate</h3>
